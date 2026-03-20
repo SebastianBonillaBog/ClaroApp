@@ -1,3 +1,4 @@
+import { Ionicons, MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import React from 'react';
 
@@ -19,15 +20,37 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Inicio',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+        }}
+      />  
+      <Tabs.Screen
+        name="paso-a-paso"
+        options={{
+          title: 'Guia',
+          tabBarIcon: ({ color }) => <Ionicons name="footsteps-sharp" size={24} color="black" />,
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="calidad-senal"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'señal',
+          tabBarIcon: ({ color }) => <MaterialIcons name="signal-wifi-0-bar" size={24} color="black" />,
+        }}
+      />  
+      {/* 2. Red Doméstica */}
+      <Tabs.Screen
+        name="red-domestica"
+        options={{
+          title: 'Mi Red',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="web-sync" size={24} color="black" />,
+        }}
+      />
+      <Tabs.Screen
+        name="soporte-tecnico"
+        options={{
+          title: 'Perfil',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="account-wrench" size={24} color="black" />,
         }}
       />
     </Tabs>

@@ -1,5 +1,5 @@
 # Descripcion
-Este es un proyecto estudiantil para el programa de Desarrollo de Software del Politecnico Interncional
+Este es un proyecto estudiantil para el programa de Desarrollo de Software del Politecnico Internacional
 se basa en una breve app de Claro para entender mejor el ciclo de vida del internet.
 
 ## 👥 Créditos

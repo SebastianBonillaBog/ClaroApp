@@ -7,7 +7,7 @@ se basa en una breve app de Claro para entender mejor el ciclo de vida del inter
 **Autor Principal**  
 - Juan Sebastian Bonilla – Desarrollo de la aplicación, diseño UI/UX, integración de contenidos técnicos.
 
-# Welcome to your Expo app 👋
+# Bienvenido 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -22,7 +22,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-   npx expo start
+   npm start
    ```
 
 In the output, you'll find options to open the app in a

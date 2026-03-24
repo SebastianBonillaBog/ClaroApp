@@ -16,25 +16,36 @@ export default function CalidadSenal() {
         <View style={styles.card}>
              <Text style={styles.cardTitle}>RX – Recepción</Text>
             <Text style={styles.cardText}>
-                Es la potencia con la que el módem envía datos hacia la red del proveedor. Si el TX es muy alto, el módem está “gritando” para ser escuchado, lo que indica problemas en el cableado o interferencias.
+                Es la potencia con la que el módem recibe la señal desde la red.Por qué importa: Si el RX es muy bajo (por ejemplo, -10 dBmV), la señal llega débil y los datos pueden perderse.
         </Text>
         </View>
         <View style={styles.card}>
-             <Text style={styles.cardTitle}>SNR – Relación señal/ruido</Text>
+            <Text style={styles.cardTitle}>SNR – Relación señal/ruido</Text>
             <Text style={styles.cardText}>
-                Es la potencia con la que el módem envía datos hacia la red del proveedor. Si el TX es muy alto, el módem está “gritando” para ser escuchado, lo que indica problemas en el cableado o interferencias.
+                Es la medida de cuánta señal útil hay en comparación con el ruido. Por qué importa: Un SNR alto significa que la señal es clara y estable; un SNR bajo indica interferencias.
         </Text>
         </View>
         <View style={styles.card}>
              <Text style={styles.cardTitle}>Ruido</Text>
             <Text style={styles.cardText}>
-                Es la potencia con la que el módem envía datos hacia la red del proveedor. Si el TX es muy alto, el módem está “gritando” para ser escuchado, lo que indica problemas en el cableado o interferencias.
+                El ruido no es un sonido literal, sino cualquier interferencia eléctrica o electromagnética que se mezcla con la señal útil de datos.
+Definición técnica: Es energía no deseada que
+se superpone a la señal de internet en el cable
+coaxial o fibra.
+Origen: Puede venir de conexiones defectuosas,
+cables dañados, equipos eléctricos cercanos,
+humedad en conectores, o saturación en el
+nodo.
         </Text>
         </View>
         <View style={styles.card}>
             <Text style={styles.cardTitle}>Nodo</Text>
             <Text style={styles.cardText}>
-                Es la potencia con la que el módem envía datos hacia la red del proveedor. Si el TX es muy alto, el módem está “gritando” para ser escuchado, lo que indica problemas en el cableado o interferencias.
+                El nodo es el punto de distribución que conecta
+{/* múltiples hogares a la red principal. Su estado */}
+afecta a todos los usuarios conectados. La
+modulación y el tráfico del nodo indican si está
+saturado o funcionando correctamente.
         </Text>
         </View>
         <Image 

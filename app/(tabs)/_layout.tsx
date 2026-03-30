@@ -47,7 +47,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="soporte-tecnico"
+        name="perfil"
         options={{
           title: 'Perfil',
           tabBarIcon: ({ color }) => <MaterialCommunityIcons name="account-wrench" size={24} color="black" />,
